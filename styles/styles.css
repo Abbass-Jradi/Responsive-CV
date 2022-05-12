@@ -4,7 +4,7 @@
 
 .container-1{
     background-color:#f5faf8;
-    width:600px;
+    width:700px;
     height:1000px;
 }
 
@@ -31,5 +31,37 @@
 
 .profile{
     order:1;
+}
+
+
+.row1{
+    display:flex;
+    gap:6rem;
+}
+
+.row2{
+    display:flex;
+    gap:6rem;
+}
+
+.row3{
+    display:flex;
+    gap:6rem;
+}
+
+.info{
+    font-size:large;
+    color:#4e4e55;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0;
+    padding:0;
+}
+
+.contact{
+    font-size:large;
+    color:#4e4e55;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0;
+    padding:0;
 }
 
