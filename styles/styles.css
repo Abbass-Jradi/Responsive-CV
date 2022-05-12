@@ -3,18 +3,22 @@
 }
 
 .container-1{
-    background-color:#f5faf8;
+    background-color:#cce6db;
     width:700px;
     height:1000px;
 }
 
 .container-2{
     background-color:#4e4e55;
-
     width:1000px;
     height:1000px;
 }
 
+.identify{
+    display:flex;
+    flex-direction: column;
+    order:2;
+}
 .aliner{
     display:flex;
     gap:2rem;
@@ -25,7 +29,6 @@
     font-size:xx-large;
     color:#4e4e55;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    order:2;
     margin:40px;
 }
 
