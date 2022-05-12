@@ -1,15 +1,19 @@
 .container{
     display:flex;
+    flex-wrap:wrap;
+
 }
 
 .container-1{
     background-color:#cce6db;
+    flex:50%;
     width:700px;
     height:1000px;
 }
 
 .container-2{
     background-color:#4e4e55;
+    flex:50%;
     width:1000px;
     height:1000px;
 }
@@ -78,6 +82,29 @@
     padding:10px;
 }
 
+.row7{
+    display:flex;
+    gap:8rem;
+    padding:10px;
+}
+
+.row8{
+    display:flex;
+    gap:4rem;
+    padding:10px;
+}
+
+.row9{
+    display:flex;
+    gap:2rem;
+    padding:10px;
+}
+.row10{
+    display:flex;
+    gap:6rem;
+    padding:10px;
+}
+
 
 .info{
     font-size:large;
@@ -109,6 +136,20 @@
 
 }
 
+.skill{
+    font-size:large;
+    color:#f7f7f7;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.hobby{
+    font-size:large;
+    color:#f7f7f7;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
 
 .frame0{
     display:flex;
@@ -127,16 +168,22 @@
     font-size:25px;
     color:#ffffff;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding:50px;
+    margin-left:8px;
 }
 
-    
+@media (max-width: 800px) {
+    .container-1, .container-2 {
+      flex: 100%;
+    }
+  }
 
 @media (max-width: 1000px) {
   .frame0 {
     flex-direction: row;
   }
-}
+} 
+
+
 
 
 
