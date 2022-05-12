@@ -3,6 +3,7 @@
 }
 
 .container-1{
+    display:flex;
     background-color:#f5faf8;
     width:600px;
     height:1000px;
