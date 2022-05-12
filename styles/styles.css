@@ -1,0 +1,17 @@
+.container{
+    display:flex;
+}
+
+.container-1{
+    background-color:#f5faf8;
+    width:600px;
+    height:1000px;
+}
+
+.container-2{
+    background-color:#4e4e55;
+    display:flex;
+    width:1000px;
+    height:1000px;
+}
+
