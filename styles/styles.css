@@ -3,8 +3,6 @@
 }
 
 .container-1{
-    display:flex;
-    gap:2rem;
     background-color:#f5faf8;
     width:600px;
     height:1000px;
@@ -12,9 +10,15 @@
 
 .container-2{
     background-color:#4e4e55;
-    display:flex;
+
     width:1000px;
     height:1000px;
+}
+
+.aliner{
+    display:flex;
+    gap:2rem;
+    margin-top:50px;
 }
 
 .name{
@@ -22,6 +26,7 @@
     color:#4e4e55;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     order:2;
+    margin:40px;
 }
 
 .profile{
