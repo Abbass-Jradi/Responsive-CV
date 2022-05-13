@@ -1,19 +1,26 @@
 .container{
     display:flex;
     flex-wrap:wrap;
-
+    flex-basis:700px;
+    align-items:center;
+    justify-content:center;
 }
 
 .container-1{
     background-color:#cce6db;
+    flex-grow: 1;
+    flex-shrink: 1;
     flex:50%;
-    width:700px;
+    width:auto;
+    min-width:700px;
     height:1000px;
 }
 
 .container-2{
     background-color:#4e4e55;
     flex:50%;
+    flex-grow:1;
+    flex-shrink:1;
     width:1000px;
     height:1000px;
 }
@@ -21,12 +28,15 @@
 .identify{
     display:flex;
     flex-direction: column;
+    flex-shrink:2;
     order:2;
 }
 .aliner{
     display:flex;
     gap:2rem;
     margin-top:50px;
+    flex-shrink:1;
+    min-width:0;
     
 }
 
@@ -154,7 +164,9 @@
 .frame0{
     display:flex;
     flex-direction: column;
+    flex-basis:700px;
     flex-shrink: 1;
+    flex-grow:1;
 }
 
 .bio{
@@ -170,18 +182,40 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left:8px;
 }
+.frame5{
+     display:flex;
+     flex-direction: column;
+     
+}
 
+.frame3{
+    flex:50%
+}
+
+.frame4{
+    flex:50%;
+}
 @media (max-width: 800px) {
     .container-1, .container-2 {
       flex: 100%;
     }
   }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .frame0 {
     flex-direction: row;
   }
 } 
+
+@media (max-height: 800px) {
+    .frame5{
+        flex-direction: row;
+    }
+  }
+
+
+
+
 
 
 
